@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ContentView: View {
     @StateObject private var vm = JokeViewModel()
-    @StateObject private var saveListVM = SaveListViewModel()
     
     var body: some View {
         NavigationView {
